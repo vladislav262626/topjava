@@ -15,7 +15,7 @@ public abstract class AbstractBaseEntity {
     @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "global_seq")
     protected Integer id;
 
-    public AbstractBaseEntity() {
+    protected AbstractBaseEntity() {
     }
 
     protected AbstractBaseEntity(Integer id) {
